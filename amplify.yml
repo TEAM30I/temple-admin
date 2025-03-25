@@ -1,0 +1,5 @@
+redirects:
+  - source: </*>
+    target: https://admin.bodhis.kr/<*>  # 원하는 도메인으로 리디렉션
+    status: 301
+    condition: null
