@@ -6,7 +6,7 @@ import {
   BarChart3,
   BookOpen,
   Calendar,
-  Coin,
+  Coins,
   FileText,
   Home,
   Image,
@@ -54,7 +54,7 @@ const navItems: NavItem[] = [
   {
     title: '보시',
     href: '/donations',
-    icon: Coin,
+    icon: Coins,
   },
   {
     title: '찾아오시는 길',

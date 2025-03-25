@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/dialog';
 import ContentEditor from './ContentEditor';
 import ImageUploader from './ImageUploader';
-import { Popover } from 'lucide-react';
+import { MessageSquare } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface Popup {
@@ -155,7 +155,7 @@ const PopupManager: React.FC = () => {
     <div className="temple-card p-6">
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-2 text-primary">
-          <Popover className="h-5 w-5" />
+          <MessageSquare className="h-5 w-5" />
           <h3 className="text-lg font-medium">팝업 관리</h3>
         </div>
         <Button onClick={openCreateDialog}>새 팝업 만들기</Button>
